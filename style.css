@@ -1,0 +1,62 @@
+*{
+    font-family: "Montserrat";
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.tanteador {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tanteador div{
+    display: flex;
+    align-items: center;
+}
+.tanteador input{
+    border: none;
+}
+.tanteador p{
+    margin-left: 5px;
+}
+
+.marco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    font-size: 0;
+    height: 150px;
+    width: 150px;
+    color: rgba(rgb(129, 127, 127) 0%);
+    background-color: rgba(rgb(129, 127, 127) 0%);
+}
+.cruz{
+background-image: url("./images/x.svg");
+background-repeat: no-repeat;
+background-size: 100%;
+
+/* background-color: black; */
+}
+.circulo{
+background-image: url("./images/o.svg");
+background-repeat: no-repeat;
+background-size: 100%;
+/* background-color: red; */
+/* border-radius: 50%; */
+}
+
+.marcofinal{
+    display: flex;
+    justify-content: center;
+}
+.pongoCero{
+        height: 50px;
+        width: 460px;
+        font-size: 30px;        
+
+}
